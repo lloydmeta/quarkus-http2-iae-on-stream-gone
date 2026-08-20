@@ -13,7 +13,7 @@ dependencies {
     implementation("io.quarkus:quarkus-rest")
     implementation("io.quarkus:quarkus-arc")
     testImplementation("io.quarkus:quarkus-junit5")
-    testImplementation("com.squareup.okhttp3:okhttp:5.4.0")
+    testImplementation("com.squareup.okhttp3:okhttp:5.5.0")
 }
 
 group = "com.beachape"
