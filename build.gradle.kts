@@ -9,7 +9,7 @@ repositories {
 }
 
 dependencies {
-    implementation(enforcedPlatform("io.quarkus.platform:quarkus-bom:3.37.3")) // Inlined for Dependabot version management
+    implementation(enforcedPlatform("io.quarkus.platform:quarkus-bom:3.39.3")) // Inlined for Dependabot version management
     implementation("io.quarkus:quarkus-rest")
     implementation("io.quarkus:quarkus-arc")
     testImplementation("io.quarkus:quarkus-junit5")
